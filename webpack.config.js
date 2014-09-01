@@ -36,9 +36,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        // Pattern to match only files with the '.js' or '.jsx' extension.
-        // This tells the loader to only run for those files.
-        test: /\.jsx?$/,
         // @see https://github.com/shama/es6-loader
         // It was installed with 'npm install es6-loader --save' and transpiles
         // es6 to es5.
