@@ -1,5 +1,10 @@
 #Webpack with Rails Demo
 
+This demonstration was written to go with the related blog post,
+[Setting Up Webpack With Rails][webpack-with-rails-post]
+
+[webpack-with-rails-post]: https://medium.com/brigade-engineering/setting-up-webpack-with-rails-c62aea149679
+
 ## HOW TO SET UP WEBPACK WITH RAILS:
 1. Set up your initial Rails project as usual.  [1][1]
 2. `npm init` to generate your `package.json`
