@@ -31,6 +31,12 @@ module.exports = {
     jquery: 'var jQuery'
   },
 
+  // Turns on source maps
+  // Prefix with a '#' to squash the FF warnings that say:
+  // 'Using //@ to indicate sourceMappingURL pragmas is deprecated.
+  // Use //# instead'
+  devtool: '#eval-source-map',
+
   // The 'module' and 'loaders' options tell webpack to use loaders.
   // @see http://webpack.github.io/docs/using-loaders.html
   module: {
